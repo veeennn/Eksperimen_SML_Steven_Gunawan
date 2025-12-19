@@ -1,7 +1,5 @@
 
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import MinMaxScaler
