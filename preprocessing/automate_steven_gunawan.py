@@ -35,4 +35,4 @@ for cols in numerik:
     df = df[(df[cols] >= lower_bound) & (df[cols] <= upper_bound)]
 df = df.drop(columns=['id'])
 
-df.to_csv("kc_house_data_preprocessing.csv")
+df.to_csv("preprocessing/kc_house_data_preprocessing.csv")
