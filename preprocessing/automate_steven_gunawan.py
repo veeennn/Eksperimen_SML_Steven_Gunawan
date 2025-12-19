@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 #Type your code here
-df = pd.read_csv("kc_house_data.csv")
+df = pd.read_csv("kc_house_data_raw.csv")
 
 
 #string harus di encode
