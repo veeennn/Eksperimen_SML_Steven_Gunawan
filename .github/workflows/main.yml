@@ -39,7 +39,7 @@ jobs:
       # Run as a mlflow project
       - name: Run preprocess
         run: |
-          python preprocessing/automate_Steven_Gunawan.py
+          python preprocessing/automate_steven_gunawan.py
  
       # Save models to GitHub Repository
       - name: Save mlruns to repo
