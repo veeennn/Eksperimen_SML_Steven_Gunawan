@@ -12,7 +12,7 @@ numeric_features = data.select_dtypes(include=['float64', 'int64']).columns.toli
 categorical_features = data.select_dtypes(include=['object']).columns.tolist()
 column_names = data.columns
 # Mendapatkan nama kolom tanpa kolom target
-column_names = data.columns.drop(target_column)
+column_names = data.columns.drop("id")
 
 # Membuat DataFrame kosong dengan nama kolom
 df_header = pd.DataFrame(columns=column_names)
