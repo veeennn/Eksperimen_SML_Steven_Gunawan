@@ -17,10 +17,6 @@ column_names = data.columns.drop("id")
 # Membuat DataFrame kosong dengan nama kolom
 df_header = pd.DataFrame(columns=column_names)
 
-# Menyimpan nama kolom sebagai header tanpa data
-df_header.to_csv(file_path, index=False)
-print(f"Nama kolom berhasil disimpan ke: {file_path}")
-
 # Pastikan target_column tidak ada di numeric_features atau categorical_features
 if target_column in numeric_features:
     numeric_features.remove(target_column)
