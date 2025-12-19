@@ -22,8 +22,8 @@ jobs:
           python-version: "3.12.7"
           
       - name: Check Env
-        run: |
-          echo $CSV_URL
+        run: |
+          echo $CSV_URL
  
       - name: Install dependencies
         run: |
